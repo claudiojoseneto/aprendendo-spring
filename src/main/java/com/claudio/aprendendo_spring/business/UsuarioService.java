@@ -4,9 +4,7 @@ import com.claudio.aprendendo_spring.infrastructure.entity.Usuario;
 import com.claudio.aprendendo_spring.infrastructure.exceptions.ConflictException;
 import com.claudio.aprendendo_spring.infrastructure.exceptions.ResourceNotFoundException;
 import com.claudio.aprendendo_spring.infrastructure.repository.UsuarioRepository;
-import io.jsonwebtoken.security.Password;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
